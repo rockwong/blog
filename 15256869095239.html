@@ -1,0 +1,872 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  React-DnD 拖拽组件的使用 - Web Library
+  
+  </title>
+ <meta name="description" content="Web Library - Rock wong的笔记博客">
+ <link href="atom.xml" rel="alternate" title="Web Library" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">Web Library</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; Web Library</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>React</label></li>
+
+          
+            <li><a title="React-DnD 拖拽组件的使用" href="15256869095239.html">React-DnD 拖拽组件的使用</a></li>
+          
+            <li><a title="antd/antd-mobile 国际化方案" href="15217090510947.html">antd/antd-mobile 国际化方案</a></li>
+          
+            <li><a title="dva 教程" href="15101921217517.html">dva 教程</a></li>
+          
+            <li><a title="dva 知识集" href="15101304011036.html">dva 知识集</a></li>
+          
+            <li><a title="React 16.0 Portal" href="15075215023470.html">React 16.0 Portal</a></li>
+          
+            <li><a title="React 最佳实践" href="14999455279343.html">React 最佳实践</a></li>
+          
+            <li><a title="antd" href="14814700756987.html">antd</a></li>
+          
+            <li><a title="react-redux" href="14678690994636.html">react-redux</a></li>
+          
+            <li><a title="React Router" href="14678260273261.html">React Router</a></li>
+          
+            <li><a title="CSS Modules" href="14677989014171.html">CSS Modules</a></li>
+          
+            <li><a title="React 表单" href="14672732709489.html">React 表单</a></li>
+          
+            <li><a title="Reac 事件列表" href="14672723163874.html">Reac 事件列表</a></li>
+          
+            <li><a title="React 入门" href="14637360014974.html">React 入门</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Vue</label></li>
+
+          
+            <li><a title="Vue router" href="15344730078020.html">Vue router</a></li>
+          
+            <li><a title="vue + typescript 采坑" href="15338023812734.html">vue + typescript 采坑</a></li>
+          
+            <li><a title="脚手架工具 vue-cli" href="15332898454024.html">脚手架工具 vue-cli</a></li>
+          
+            <li><a title="mpvue 及小程序开发问题" href="15323407884126.html">mpvue 及小程序开发问题</a></li>
+          
+            <li><a title="Vue 基础用法" href="15317260783929.html">Vue 基础用法</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Javascript</label></li>
+
+          
+            <li><a title="按位操作符（Bitwise operators）" href="15450317412604.html">按位操作符（Bitwise operators）</a></li>
+          
+            <li><a title="Ramda.js" href="15281651308984.html">Ramda.js</a></li>
+          
+            <li><a title="Generator函数的概念" href="15101062948398.html">Generator函数的概念</a></li>
+          
+            <li><a title="UMD兼容AMD和CMD的写法" href="15076927894163.html">UMD兼容AMD和CMD的写法</a></li>
+          
+            <li><a title="RxJS" href="15047477913592.html">RxJS</a></li>
+          
+            <li><a title="代码测试Mocha" href="15004478494975.html">代码测试Mocha</a></li>
+          
+            <li><a title="jQuery 插件开发" href="14986206455877.html">jQuery 插件开发</a></li>
+          
+            <li><a title="Objeact" href="14781871132062.html">Objeact</a></li>
+          
+            <li><a title="ES 2017-2018" href="14659862556019.html">ES 2017-2018</a></li>
+          
+            <li><a title="提升移动端交互体验" href="14594179804144.html">提升移动端交互体验</a></li>
+          
+            <li><a title="正则表达式" href="14538838570888.html">正则表达式</a></li>
+          
+            <li><a title="javascript 计算方法" href="14479237868840.html">javascript 计算方法</a></li>
+          
+            <li><a title="如何判断Javascript对象是否存在" href="14405645012482.html">如何判断Javascript对象是否存在</a></li>
+          
+            <li><a title="编写可以维护的Javascript" href="14374607332537.html">编写可以维护的Javascript</a></li>
+          
+            <li><a title="手机CSS3自适应" href="14351323206245.html">手机CSS3自适应</a></li>
+          
+            <li><a title="兼容性检查" href="14320320640178.html">兼容性检查</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>TypeScript</label></li>
+
+          
+            <li><a title="预定义的有条件类型" href="15450286491100.html">预定义的有条件类型</a></li>
+          
+            <li><a title="索引类型（Index types）" href="15450169930004.html">索引类型（Index types）</a></li>
+          
+            <li><a title="类型保护与区分类型" href="15447850684255.html">类型保护与区分类型</a></li>
+          
+            <li><a title="类型的合并" href="15333797108871.html">类型的合并</a></li>
+          
+            <li><a title="类型的兼容性" href="15331829019400.html">类型的兼容性</a></li>
+          
+            <li><a title="泛型" href="15331745903762.html">泛型</a></li>
+          
+            <li><a title="类" href="15331136386590.html">类</a></li>
+          
+            <li><a title="接口" href="15331085326209.html">接口</a></li>
+          
+            <li><a title="基本类型" href="15330939698527.html">基本类型</a></li>
+          
+            <li><a title="函数" href="15330893421824.html">函数</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Bootstrap</label></li>
+
+          
+            <li><a title="滚动监听 scrollspy.js" href="14355675256844.html">滚动监听 scrollspy.js</a></li>
+          
+            <li><a title="bootstrap 技巧" href="14355675148503.html">bootstrap 技巧</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Tools</label></li>
+
+          
+            <li><a title="Now.sh 免费部署项目" href="15360262436245.html">Now.sh 免费部署项目</a></li>
+          
+            <li><a title="NEI 接口使用" href="15332640241622.html">NEI 接口使用</a></li>
+          
+            <li><a title="eslint 和 prettier 格式化代码的问题" href="15317320146853.html">eslint 和 prettier 格式化代码的问题</a></li>
+          
+            <li><a title="vim key map" href="15124814211537.html">vim key map</a></li>
+          
+            <li><a title="vscode-react snippets" href="15124422002002.html">vscode-react snippets</a></li>
+          
+            <li><a title="vscode-javascript snippets" href="15124417613279.html">vscode-javascript snippets</a></li>
+          
+            <li><a title="Chrome 调试工具" href="14772319779515.html">Chrome 调试工具</a></li>
+          
+            <li><a title="Webpack 配置说明" href="14666700670045.html">Webpack 配置说明</a></li>
+          
+            <li><a title="Webpack入门实例" href="14665853440091.html">Webpack入门实例</a></li>
+          
+            <li><a title="iTerm2" href="14652934494867.html">iTerm2</a></li>
+          
+            <li><a title="Mac 操作技巧" href="14479281122533.html">Mac 操作技巧</a></li>
+          
+            <li><a title="制作工具" href="14343562256845.html">制作工具</a></li>
+          
+            <li><a title="WebStorm" href="14343545158801.html">WebStorm</a></li>
+          
+            <li><a title="Git常用命令" href="14339245263858.html">Git常用命令</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Other</label></li>
+
+          
+            <li><a title="《构建之法：现代软件工程》笔记" href="14430864578020.html">《构建之法：现代软件工程》笔记</a></li>
+          
+            <li><a title="linux 目录结构" href="14368004611030.html">linux 目录结构</a></li>
+          
+            <li><a title="H5 Campaign 代码规范" href="14320162934581.html">H5 Campaign 代码规范</a></li>
+          
+            <li><a title="Markdown 语法和 MWeb 写作使用说明" href="14269478334488.html">Markdown 语法和 MWeb 写作使用说明</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Node</label></li>
+
+          
+            <li><a title="学习笔记" href="15457014993763.html">学习笔记</a></li>
+          
+            <li><a title="开发实践" href="15453151087296.html">开发实践</a></li>
+          
+            <li><a title="npm scripts 使用指南" href="15452167793670.html">npm scripts 使用指南</a></li>
+          
+            <li><a title="常见错误处理" href="15359007579742.html">常见错误处理</a></li>
+          
+            <li><a title="node 爬虫" href="15355944122228.html">node 爬虫</a></li>
+          
+            <li><a title="http 缓存" href="15324356762535.html">http 缓存</a></li>
+          
+            <li><a title="快捷操作" href="15323487390786.html">快捷操作</a></li>
+          
+            <li><a title="Module 语法" href="15249060029480.html">Module 语法</a></li>
+          
+            <li><a title="Nvm" href="15174992778669.html">Nvm</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Gatsby</label></li>
+
+          
+            <li><a title="Typography.js" href="15199584817176.html">Typography.js</a></li>
+          
+            <li><a title="Schema" href="15198936330024.html">Schema</a></li>
+          
+            <li><a title="GraphQl 查询和变更" href="15198761998287.html">GraphQl 查询和变更</a></li>
+          
+            <li><a title="Gatsby 知识集" href="15180851204227.html">Gatsby 知识集</a></li>
+          
+            <li><a title="Gatsby 入门" href="15180799782627.html">Gatsby 入门</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Lodash</label></li>
+
+          
+            <li><a title="lodash 功能目录" href="15320804854416.html">lodash 功能目录</a></li>
+          
+            <li><a title="源码学习整理" href="15320686753264.html">源码学习整理</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>Source</label></li>
+
+          
+            <li><a title="jsmpeg - 手机端视频处理方案" href="15336095528357.html">jsmpeg - 手机端视频处理方案</a></li>
+          
+            <li><a title="事件的发布订阅库" href="15174568884211.html">事件的发布订阅库</a></li>
+          
+            <li><a title="number-precision" href="15112332597657.html">number-precision</a></li>
+          
+            <li><a title="moment.js" href="15076926171291.html">moment.js</a></li>
+          
+            <li><a title="Immutable" href="14878364483121.html">Immutable</a></li>
+          
+            <li><a title="github-project-starter" href="14514597044546.html">github-project-starter</a></li>
+          
+            <li><a title="jQuery Jcrop 图像裁剪" href="14361693776943.html">jQuery Jcrop 图像裁剪</a></li>
+          
+            <li><a title="Enhance.js" href="14352254062952.html">Enhance.js</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>HTML/CSS</label></li>
+
+          
+            <li><a title="babel-plugin-module-resolver 模块解析插件" href="15305349399921.html">babel-plugin-module-resolver 模块解析插件</a></li>
+          
+            <li><a title="Less 常用语法" href="15220565189820.html">Less 常用语法</a></li>
+          
+            <li><a title="网页中文字体" href="15089847135404.html">网页中文字体</a></li>
+          
+            <li><a title="flex 布局" href="14564603801436.html">flex 布局</a></li>
+          
+            <li><a title="CSS 效果及动画" href="14479137870540.html">CSS 效果及动画</a></li>
+          
+            <li><a title="CSS RESET" href="14351317708511.html">CSS RESET</a></li>
+          
+            <li><a title="EDM规范" href="14339239701927.html">EDM规范</a></li>
+          
+            <li><a title="Sass操作技巧" href="14321075117677.html">Sass操作技巧</a></li>
+          
+            <li><a title="浏览器bug" href="14321074211235.html">浏览器bug</a></li>
+          
+            <li><a title="常用CSS" href="14321027854826.html">常用CSS</a></li>
+          
+            <li><a title="常用HTML代码" href="14319440842834.html">常用HTML代码</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>React</span></li>
+                        
+                          <li><a title="React-DnD 拖拽组件的使用" href="15256869095239.html">React-DnD 拖拽组件的使用</a></li>
+                        
+                          <li><a title="antd/antd-mobile 国际化方案" href="15217090510947.html">antd/antd-mobile 国际化方案</a></li>
+                        
+                          <li><a title="dva 教程" href="15101921217517.html">dva 教程</a></li>
+                        
+                          <li><a title="dva 知识集" href="15101304011036.html">dva 知识集</a></li>
+                        
+                          <li><a title="React 16.0 Portal" href="15075215023470.html">React 16.0 Portal</a></li>
+                        
+                          <li><a title="React 最佳实践" href="14999455279343.html">React 最佳实践</a></li>
+                        
+                          <li><a title="antd" href="14814700756987.html">antd</a></li>
+                        
+                          <li><a title="react-redux" href="14678690994636.html">react-redux</a></li>
+                        
+                          <li><a title="React Router" href="14678260273261.html">React Router</a></li>
+                        
+                          <li><a title="CSS Modules" href="14677989014171.html">CSS Modules</a></li>
+                        
+                          <li><a title="React 表单" href="14672732709489.html">React 表单</a></li>
+                        
+                          <li><a title="Reac 事件列表" href="14672723163874.html">Reac 事件列表</a></li>
+                        
+                          <li><a title="React 入门" href="14637360014974.html">React 入门</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Vue</span></li>
+                        
+                          <li><a title="Vue router" href="15344730078020.html">Vue router</a></li>
+                        
+                          <li><a title="vue + typescript 采坑" href="15338023812734.html">vue + typescript 采坑</a></li>
+                        
+                          <li><a title="脚手架工具 vue-cli" href="15332898454024.html">脚手架工具 vue-cli</a></li>
+                        
+                          <li><a title="mpvue 及小程序开发问题" href="15323407884126.html">mpvue 及小程序开发问题</a></li>
+                        
+                          <li><a title="Vue 基础用法" href="15317260783929.html">Vue 基础用法</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Javascript</span></li>
+                        
+                          <li><a title="按位操作符（Bitwise operators）" href="15450317412604.html">按位操作符（Bitwise operators）</a></li>
+                        
+                          <li><a title="Ramda.js" href="15281651308984.html">Ramda.js</a></li>
+                        
+                          <li><a title="Generator函数的概念" href="15101062948398.html">Generator函数的概念</a></li>
+                        
+                          <li><a title="UMD兼容AMD和CMD的写法" href="15076927894163.html">UMD兼容AMD和CMD的写法</a></li>
+                        
+                          <li><a title="RxJS" href="15047477913592.html">RxJS</a></li>
+                        
+                          <li><a title="代码测试Mocha" href="15004478494975.html">代码测试Mocha</a></li>
+                        
+                          <li><a title="jQuery 插件开发" href="14986206455877.html">jQuery 插件开发</a></li>
+                        
+                          <li><a title="Objeact" href="14781871132062.html">Objeact</a></li>
+                        
+                          <li><a title="ES 2017-2018" href="14659862556019.html">ES 2017-2018</a></li>
+                        
+                          <li><a title="提升移动端交互体验" href="14594179804144.html">提升移动端交互体验</a></li>
+                        
+                          <li><a title="正则表达式" href="14538838570888.html">正则表达式</a></li>
+                        
+                          <li><a title="javascript 计算方法" href="14479237868840.html">javascript 计算方法</a></li>
+                        
+                          <li><a title="如何判断Javascript对象是否存在" href="14405645012482.html">如何判断Javascript对象是否存在</a></li>
+                        
+                          <li><a title="编写可以维护的Javascript" href="14374607332537.html">编写可以维护的Javascript</a></li>
+                        
+                          <li><a title="手机CSS3自适应" href="14351323206245.html">手机CSS3自适应</a></li>
+                        
+                          <li><a title="兼容性检查" href="14320320640178.html">兼容性检查</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>TypeScript</span></li>
+                        
+                          <li><a title="预定义的有条件类型" href="15450286491100.html">预定义的有条件类型</a></li>
+                        
+                          <li><a title="索引类型（Index types）" href="15450169930004.html">索引类型（Index types）</a></li>
+                        
+                          <li><a title="类型保护与区分类型" href="15447850684255.html">类型保护与区分类型</a></li>
+                        
+                          <li><a title="类型的合并" href="15333797108871.html">类型的合并</a></li>
+                        
+                          <li><a title="类型的兼容性" href="15331829019400.html">类型的兼容性</a></li>
+                        
+                          <li><a title="泛型" href="15331745903762.html">泛型</a></li>
+                        
+                          <li><a title="类" href="15331136386590.html">类</a></li>
+                        
+                          <li><a title="接口" href="15331085326209.html">接口</a></li>
+                        
+                          <li><a title="基本类型" href="15330939698527.html">基本类型</a></li>
+                        
+                          <li><a title="函数" href="15330893421824.html">函数</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Bootstrap</span></li>
+                        
+                          <li><a title="滚动监听 scrollspy.js" href="14355675256844.html">滚动监听 scrollspy.js</a></li>
+                        
+                          <li><a title="bootstrap 技巧" href="14355675148503.html">bootstrap 技巧</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Tools</span></li>
+                        
+                          <li><a title="Now.sh 免费部署项目" href="15360262436245.html">Now.sh 免费部署项目</a></li>
+                        
+                          <li><a title="NEI 接口使用" href="15332640241622.html">NEI 接口使用</a></li>
+                        
+                          <li><a title="eslint 和 prettier 格式化代码的问题" href="15317320146853.html">eslint 和 prettier 格式化代码的问题</a></li>
+                        
+                          <li><a title="vim key map" href="15124814211537.html">vim key map</a></li>
+                        
+                          <li><a title="vscode-react snippets" href="15124422002002.html">vscode-react snippets</a></li>
+                        
+                          <li><a title="vscode-javascript snippets" href="15124417613279.html">vscode-javascript snippets</a></li>
+                        
+                          <li><a title="Chrome 调试工具" href="14772319779515.html">Chrome 调试工具</a></li>
+                        
+                          <li><a title="Webpack 配置说明" href="14666700670045.html">Webpack 配置说明</a></li>
+                        
+                          <li><a title="Webpack入门实例" href="14665853440091.html">Webpack入门实例</a></li>
+                        
+                          <li><a title="iTerm2" href="14652934494867.html">iTerm2</a></li>
+                        
+                          <li><a title="Mac 操作技巧" href="14479281122533.html">Mac 操作技巧</a></li>
+                        
+                          <li><a title="制作工具" href="14343562256845.html">制作工具</a></li>
+                        
+                          <li><a title="WebStorm" href="14343545158801.html">WebStorm</a></li>
+                        
+                          <li><a title="Git常用命令" href="14339245263858.html">Git常用命令</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Other</span></li>
+                        
+                          <li><a title="《构建之法：现代软件工程》笔记" href="14430864578020.html">《构建之法：现代软件工程》笔记</a></li>
+                        
+                          <li><a title="linux 目录结构" href="14368004611030.html">linux 目录结构</a></li>
+                        
+                          <li><a title="H5 Campaign 代码规范" href="14320162934581.html">H5 Campaign 代码规范</a></li>
+                        
+                          <li><a title="Markdown 语法和 MWeb 写作使用说明" href="14269478334488.html">Markdown 语法和 MWeb 写作使用说明</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Node</span></li>
+                        
+                          <li><a title="学习笔记" href="15457014993763.html">学习笔记</a></li>
+                        
+                          <li><a title="开发实践" href="15453151087296.html">开发实践</a></li>
+                        
+                          <li><a title="npm scripts 使用指南" href="15452167793670.html">npm scripts 使用指南</a></li>
+                        
+                          <li><a title="常见错误处理" href="15359007579742.html">常见错误处理</a></li>
+                        
+                          <li><a title="node 爬虫" href="15355944122228.html">node 爬虫</a></li>
+                        
+                          <li><a title="http 缓存" href="15324356762535.html">http 缓存</a></li>
+                        
+                          <li><a title="快捷操作" href="15323487390786.html">快捷操作</a></li>
+                        
+                          <li><a title="Module 语法" href="15249060029480.html">Module 语法</a></li>
+                        
+                          <li><a title="Nvm" href="15174992778669.html">Nvm</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Gatsby</span></li>
+                        
+                          <li><a title="Typography.js" href="15199584817176.html">Typography.js</a></li>
+                        
+                          <li><a title="Schema" href="15198936330024.html">Schema</a></li>
+                        
+                          <li><a title="GraphQl 查询和变更" href="15198761998287.html">GraphQl 查询和变更</a></li>
+                        
+                          <li><a title="Gatsby 知识集" href="15180851204227.html">Gatsby 知识集</a></li>
+                        
+                          <li><a title="Gatsby 入门" href="15180799782627.html">Gatsby 入门</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Lodash</span></li>
+                        
+                          <li><a title="lodash 功能目录" href="15320804854416.html">lodash 功能目录</a></li>
+                        
+                          <li><a title="源码学习整理" href="15320686753264.html">源码学习整理</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>Source</span></li>
+                        
+                          <li><a title="jsmpeg - 手机端视频处理方案" href="15336095528357.html">jsmpeg - 手机端视频处理方案</a></li>
+                        
+                          <li><a title="事件的发布订阅库" href="15174568884211.html">事件的发布订阅库</a></li>
+                        
+                          <li><a title="number-precision" href="15112332597657.html">number-precision</a></li>
+                        
+                          <li><a title="moment.js" href="15076926171291.html">moment.js</a></li>
+                        
+                          <li><a title="Immutable" href="14878364483121.html">Immutable</a></li>
+                        
+                          <li><a title="github-project-starter" href="14514597044546.html">github-project-starter</a></li>
+                        
+                          <li><a title="jQuery Jcrop 图像裁剪" href="14361693776943.html">jQuery Jcrop 图像裁剪</a></li>
+                        
+                          <li><a title="Enhance.js" href="14352254062952.html">Enhance.js</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>HTML/CSS</span></li>
+                        
+                          <li><a title="babel-plugin-module-resolver 模块解析插件" href="15305349399921.html">babel-plugin-module-resolver 模块解析插件</a></li>
+                        
+                          <li><a title="Less 常用语法" href="15220565189820.html">Less 常用语法</a></li>
+                        
+                          <li><a title="网页中文字体" href="15089847135404.html">网页中文字体</a></li>
+                        
+                          <li><a title="flex 布局" href="14564603801436.html">flex 布局</a></li>
+                        
+                          <li><a title="CSS 效果及动画" href="14479137870540.html">CSS 效果及动画</a></li>
+                        
+                          <li><a title="CSS RESET" href="14351317708511.html">CSS RESET</a></li>
+                        
+                          <li><a title="EDM规范" href="14339239701927.html">EDM规范</a></li>
+                        
+                          <li><a title="Sass操作技巧" href="14321075117677.html">Sass操作技巧</a></li>
+                        
+                          <li><a title="浏览器bug" href="14321074211235.html">浏览器bug</a></li>
+                        
+                          <li><a title="常用CSS" href="14321027854826.html">常用CSS</a></li>
+                        
+                          <li><a title="常用HTML代码" href="14319440842834.html">常用HTML代码</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ <div class="markdown-body">
+<h1>React-DnD 拖拽组件的使用</h1>
+
+<h2 id="toc_0">基本用法</h2>
+
+<ol>
+<li>把应用的根组件包装在 <code>DragDropContext</code> 中</li>
+<li>把可以拖拽的组件包装在 <code>DragSource</code> 中
+<ol>
+<li>设置 type</li>
+<li>设置 spec，让组件可以响应拖拽事件</li>
+<li>设置 collect，把拖拽过程中需要信息注入组件的 props</li>
+</ol></li>
+<li>把可以接受拖拽的组件包装在 <code>DropTarget</code> 中
+<ol>
+<li>设置 type</li>
+<li>设置 spec，让组件可以响应拖拽事件</li>
+<li>设置 collect，把拖拽过程中需要信息注入组件的 props</li>
+</ol></li>
+<li>完</li>
+</ol>
+
+<p>翻译成代码就是：</p>
+
+<pre><code class="language-javascript">// 1
+import HTML5Backend from &#39;react-dnd-html5-backend&#39;;
+import { DragDropContext } from &#39;react-dnd&#39;;
+
+class App { ... }
+export default DragDropContext(HTML5Backend)(App);
+
+/*---------------------------*/
+
+// 2
+import { DragSource } from &#39;react-dnd&#39;;
+
+class MyComponent { ... }
+export default DragSource(type, spec, collect)(MyComponent);
+
+/*---------------------------*/
+
+// 3
+import { DropTarget } from &#39;react-dnd&#39;;
+
+class MyComponent2 { ... }
+export default DropTarget(types, spec, collect)(MyComponent2);
+</code></pre>
+
+<p>这样，MyComponent 就变得可以拖拽，而 MyComponent2 就变得可以接受拖拽了，但这并不代表 MyComponent 可以放到 MyComponent2 中！</p>
+
+<h2 id="toc_1">一些概念</h2>
+
+<p>React DnD 中有一些特殊的概念，理解这些概念之后才能活用这个库！</p>
+
+<ul>
+<li><code>Backend</code> 实现 DnD 的方式，默认是用 HTML5 DnD API，它不能在触屏环境下工作，而且在 IE 下可定制性比其他浏览器弱。你也可以用自己实现，具体请看官方文档。</li>
+<li><code>Items</code> 拖拽数据的表现形式，用 Object 来表示。譬如，要拖拽一张卡片，那这张卡片的<strong>数据</strong>的表现形式可能是 <code>{ id: xxx, content: yyy }</code>。</li>
+<li><code>Types</code> 表示拖/放组件的兼容性，<code>DragSource</code> 和 <code>DropTarget</code> 必须指定 <code>type</code>。只有在 <code>type</code> 相同的情况下，<code>DragSource</code> 才能放到 <code>DropTarget</code> 中。</li>
+<li><code>Monitors</code> 用来响应拖拽事件，可以用来更新组件的的状态。</li>
+<li><code>Connectors</code> 底层接触 DOM 的东西，用来封装你的组件，让你的组件有拖拽的特性。一般在 collect 方法中指定，然后注入到组件的 props 中，最后 render 方法中包装你自己的组件。</li>
+<li><code>DragSource &amp;&amp; DropTarget</code> 把上面的概念都绑在一起的东西，也是真正跟你的组件打交道的东西。</li>
+</ul>
+
+<h2 id="toc_2">主要 API 介绍</h2>
+
+<p>这些主要 API 都是通过包装你的组件，然后返回一个新的组件。</p>
+
+<h3 id="toc_3">DragDropContext(backend)</h3>
+
+<ul>
+<li><code>backend</code> 实现 DnD 的方式，一般是 HTML5Backend</li>
+</ul>
+
+<pre><code class="language-javascript">export default DragDropContext(HTML5Backend)(App);
+</code></pre>
+
+<hr/>
+
+<h3 id="toc_4">DragSource(type, spec, collect)</h3>
+
+<h3 id="toc_5">DropTarget(type, spec, collect)</h3>
+
+<ul>
+<li><code>type</code> 必须。type 是自定义的，可以是 string，symbol，也可以是用一个函数来返回该组件的其他 props。该组件只能放到相同 type 的 DropTarget 中。</li>
+<li><code>spec</code> 必须。一个带有特定方法的纯 Object，里面是一些响应拖拽事件的方法。</li>
+<li><code>collect</code> 必须。一个函数返回一个 Object，这个 Object 会注入到组件的 props 中。</li>
+<li><code>options</code> 可选。除非有性能问题，否则不需要关心这个参数。</li>
+</ul>
+
+<pre><code class="language-javascript">const type = &#39;xxx&#39;;
+const spec = { ... };
+function collect(connect, monitor) { ... }
+
+export default DragSource(type, spec, collect)(MyComponent);
+export default DropTarget(type, spec, collect)(MyComponent2);
+</code></pre>
+
+<hr/>
+
+<h3 id="toc_6">DragSource#spec</h3>
+
+<p>让你的组件响应 dnd 相关事件，支持以下方法：</p>
+
+<ul>
+<li><code>beginDrag(props, monitor, component)</code> <strong>必须</strong></li>
+<li><code>endDrag(props, monitor, component)</code> 可选</li>
+<li><code>canDrag(props, monitor)</code> 可选</li>
+<li><code>isDragging(props, monitor)</code> 可选</li>
+</ul>
+
+<p>参数含义如下：</p>
+
+<ul>
+<li><code>props</code> 组件当前的 props</li>
+<li><code>monitor</code> 是一个 <code>DragSourceMonitor</code> 实例，用来查询当前 drag state 的信息。</li>
+<li><code>component</code> 表示当前组件，可以省略。</li>
+</ul>
+
+<pre><code class="language-javascript">const spec = {
+    beginDrag(props) {
+        return { 
+            id: props.id, 
+            content: props.content
+        }
+    }
+    //...
+}
+</code></pre>
+
+<hr/>
+
+<h3 id="toc_7">DropTarget#spec</h3>
+
+<p>让你的组件响应 dnd 相关事件，支持以下方法：</p>
+
+<ul>
+<li><code>drop(props, monitor, component)</code> 可选，响应 drop 事件</li>
+<li><code>hover(props, monitor, component)</code> 可选</li>
+<li><code>canDrop(props, monitor)</code> 可选</li>
+</ul>
+
+<p>参数含义如下：</p>
+
+<ul>
+<li><code>props</code> 组件当前的 props</li>
+<li><code>monitor</code> 是一个 <code>DropTargetMonitor</code> 实例，用来查询当前 drag state 的信息。</li>
+<li><code>component</code> 表示当前组件，可以省略。</li>
+</ul>
+
+<pre><code class="language-javascript">const spec = {
+    drop(props, monitor, component) {
+        // 获取正在拖放的数据
+        const item = monitor.getItem();
+        // 更新组件状态
+        component.setState({
+            item
+        })
+        
+    }
+}
+</code></pre>
+
+<hr/>
+
+<h3 id="toc_8">DragSource#collect(connect, monitor)</h3>
+
+<h3 id="toc_9">DropTarget#collect(connect, monitor)</h3>
+
+<p>返回一个 object，这个 object 可以会注入到组件的 props 中。</p>
+
+<ul>
+<li><code>connect</code> 一个 <code>DragSourceConnector</code>/<code>DropTargetConnector</code> 实例，可以用 <code>connect.dragSource()</code>/<code>connect.dropTarget()</code> 来封装我们的组件。</li>
+<li><code>monitor</code> 一个 <code>DragSourceMonitor</code>/<code>DropTargetMonitor</code> 实例，用来查询当前拖拽的信息。</li>
+</ul>
+
+<pre><code class="language-javascript">function collect(connect, monitor) {
+    return {
+        isDragging: monitor.isDragging(),
+        connectDragSource: connect.dragSource()
+    }
+}
+
+class MyComponent extends Component {
+    render() {
+        // 可以访问 collect 中返回的  object
+        const { isDragging, connectDragSource } = this.props;
+        // 需要用 connect.dragSource()/connect.dropTarget() 封装自己的组件
+        return connectDragSource(
+            &lt;div&gt;123&lt;/div&gt;
+        )
+    }
+}
+
+</code></pre>
+
+<h2 id="toc_10">具体例子</h2>
+
+<ul>
+<li><a href="http://gaearon.github.io/react-dnd/examples-chessboard-tutorial-app.html">演示</a></li>
+<li><a href="https://github.com/gaearon/react-dnd/tree/master/examples">代码</a></li>
+</ul>
+
+<h2 id="toc_11">参考资料</h2>
+
+<p><a href="http://gaearon.github.io/react-dnd/">官方文档</a></p>
+
+
+</div>
+
+<br /><br />
+<hr />
+
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	        <a href="15281651308984.html"  title="Previous Post: Ramda.js">&laquo; Ramda.js</a>
+	    
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	        <a href="15249060029480.html" 
+	        title="Next Post: Module 语法">Module 语法 &raquo;</a>
+	    
+	</div>
+  </div>
+</div>
+
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
+
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '15256869095239.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-65222237-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
