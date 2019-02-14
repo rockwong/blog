@@ -5,11 +5,16 @@ $(document).ready(function() {
     splitFlag = 'https://';
   }
   // var user = webURL.split(splitFlag)[1].split(".")[0];
-  var user = 'yanghanqing';
+  // var user = 'yanghanqing';
+  var user = 'rockwong';
+  // var blogListURL =
+  //   'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
+  // readmeURL =
+  //   'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/README.md';
   var blogListURL =
-    'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
+    'https://api.github.com/repos/' + user + '/blog/contents/blog';
   readmeURL =
-    'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/README.md';
+    'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/dev/README.md';
 
   $('#header').text(user + "'s Blog");
   $('#commentsList').removeAttr('data_comments_url');
