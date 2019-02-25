@@ -1,0 +1,1 @@
+{"data":{"markdownRemark":{"html":"<h1>快捷操作</h1>\n<h2>mac 关闭node 进程</h2>\n<pre><code class=\"language-bash\">sudo killall -9 node  # 全部\n\nsudo lsof -i tcp:3000  # 端口号\n</code></pre>","frontmatter":{"title":"快捷操作"}}},"pageContext":{"slug":"/notes/快捷操作/","tagPath":"/node/快捷操作/"}}

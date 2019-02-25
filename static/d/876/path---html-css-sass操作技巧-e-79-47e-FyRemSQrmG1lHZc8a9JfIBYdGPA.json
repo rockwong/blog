@@ -1,0 +1,1 @@
+{"data":{"markdownRemark":{"html":"<h1>Sass操作技巧</h1>\n<h2>快速书写响应式样式</h2>\n<pre><code class=\"language-sass\">@mixin iphone {  \n  @media only screen and (max-width: 480px) {  \n    @content;  \n  }  \n} \n@include iphone {  \n  body { color: red }  \n} \n</code></pre>","frontmatter":{"title":"Sass操作技巧"}}},"pageContext":{"slug":"/notes/Sass操作技巧/","tagPath":"/HTML-CSS/Sass操作技巧/"}}
