@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/',
+  pathPrefix: '/blog',
   siteMetadata: {
     title: `Rock'blog`,
     description: `rock blog 基于 react,gatsby,notable,pure.css 构建...`,
