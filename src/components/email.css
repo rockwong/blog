@@ -180,6 +180,10 @@ a {
   margin: 0;
   padding: 0;
 }
+#main {
+  padding: 0 1em;
+  box-sizing: border-box;
+}
 #main code {
   word-break: break-all;
 }
@@ -353,7 +357,6 @@ a {
     padding-left: 500px; /* "left col (nav + list)" width */
     position: relative;
   }
-
   /* These are position:fixed; elements that will be in the left 500px of the screen */
   #nav,
   #list {
@@ -415,6 +418,5 @@ a {
   #main {
     position: static;
     margin: 0;
-    padding: 0 1em;
   }
 }

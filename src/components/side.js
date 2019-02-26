@@ -1,4 +1,4 @@
-import { Link, navigate } from 'gatsby';
+import { Link, navigate, withPrefix } from 'gatsby';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import React from 'react';
@@ -19,6 +19,7 @@ export default class Slide extends React.PureComponent {
   state = {
     activeNav: '',
     listObj: {},
+    isOpenNav: false,
   };
 
   componentDidMount() {
@@ -31,9 +32,13 @@ export default class Slide extends React.PureComponent {
     }
   }
 
+  toggleMenu = e => {
+    e.preventDefault();
+    this.setState(state => ({ isOpenNav: !state.isOpenNav }));
+  };
+
   itemClick = url => e => {
     e.preventDefault();
-    console.log('navClick==', url);
     navigate(url);
   };
 
@@ -42,7 +47,7 @@ export default class Slide extends React.PureComponent {
     this.setState({ activeNav: navName });
   };
 
-  checkIsCurrent = pathname => encodeURI(pathname) === globalHistory.location.pathname;
+  checkIsCurrent = pathname => withPrefix(encodeURI(pathname)) === globalHistory.location.pathname;
 
   init = (props = this.props) => {
     let defaultActiveNav;
@@ -69,16 +74,12 @@ export default class Slide extends React.PureComponent {
       }, {});
 
     // 通过 location 判断默认 nav
-    const locationName = window.location.pathname.split('/')[1];
+    const prefixReg = new RegExp(`^${withPrefix('')}`);
+    const locationName = globalHistory.location.pathname
+      .replace(prefixReg, '')
+      .split('/')
+      .filter(Boolean)[0];
     const decodeName = decodeURI(locationName);
-    console.log(
-      this.state.activeNav,
-      '= this.state.activeNav=',
-      decodeName,
-      '  defaultActiveNav=',
-      defaultActiveNav,
-    );
-
     if (decodeName && listObjWidthNavName[decodeName]) {
       defaultActiveNav = decodeName;
     }
@@ -129,8 +130,8 @@ export default class Slide extends React.PureComponent {
 
     return (
       <>
-        <div id="nav" className="pure-u">
-          <a href="#" className="nav-menu-button">
+        <div id="nav" className={`pure-u ${this.state.isOpenNav ? 'active' : ''}`}>
+          <a href="#" className="nav-menu-button" onClick={this.toggleMenu}>
             Menu
           </a>
 
